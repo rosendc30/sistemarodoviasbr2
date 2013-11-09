@@ -199,10 +199,10 @@ textarea { overflow: auto; }
 .footer-nav ul li a:hover { color: #878684; text-decoration: none; }
 .footer-nav ul li.last { border-right: 0; }
 
-#footer p.copy { font-size: 10px; color:#afaca9; line-height: 10px; float: right; }
-#footer p.copy a { font-size: 10px; color:#00acef;  line-height: 10px; text-decoration: underline; }
-#footer p.copy a:hover { text-decoration: none; }
-#footer p.copy span { padding:0 7px; }
+#footer p.git { font-size: 10px; color:#afaca9; line-height: 10px; float: right; }
+#footer p.git a { font-size: 10px; color:#00acef;  line-height: 10px; text-decoration: underline; }
+#footer p.git a:hover { text-decoration: none; }
+#footer p.git span { padding:0 7px; }
 
 /* ipad portrait */
 @media only screen and ( min-width: 768px) and ( max-width: 981px ) {
@@ -265,7 +265,7 @@ textarea { overflow: auto; }
 	.main .entries .entry .cnt {  height:100%; overflow: hidden; }
 
 	.footer-nav { float:none; display: block; padding-bottom: 12px; }
-	#footer p.copy { float: none; display:block; padding-left: 10px;  }
+	#footer p.git { float: none; display:block; padding-left: 10px;  }
 	
 	/*formulario*/
 #bodycontato {padding: 0px 0px 0px 200px;}
@@ -399,7 +399,7 @@ section { font-family: sans-serif,Tahoma,Verdana; } article { float: left; }
 	#footer { padding-left: 0; padding-right:0;  }
 	.footer-nav { float:none; display:block; height: 12px; margin:0 auto; width: 310px; vpadding-bottom: 8px; text-transform: uppercase; }
 	.footer-nav ul li { font-size: 8px; border-right:0; padding:0 2px; }
-	#footer p.copy { font-size: 8px; text-align:center; float:none; display:block; }
+	#footer p.git { font-size: 8px; text-align:center; float:none; display:block; }
 	/*formulario*/
 #bodycontato {padding: 0px 0px 0px 0px;}
 section { font-family: sans-serif,Tahoma,Verdana; } article { float: left; }
